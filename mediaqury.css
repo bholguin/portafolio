@@ -1,0 +1,76 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width:400px) and (max-width: 550px) {
+
+    .menu{
+        margin-left: 307px;
+    }
+    .Soy{
+        font-size: 32px;
+        width: 121px;
+        border-bottom: 2px solid white;
+    }
+    .Leidy{
+        font-size: 61px;
+    }
+    .Marketing-D{
+        font-size: 20px;
+    }
+    .años{
+        font-size: 30px;
+        right: 4%
+    }
+    .imagen{
+        height: 380px;
+        width: 380px;
+        border-radius: 70%;
+    }
+    .photo{
+        height: 230px;
+    }
+    .accounts{
+        width: 410px;
+    }
+
+    .i-1{
+        margin-left: 3rem;
+    }    
+    .i-2{
+        margin-left: 10rem;
+    }
+    .icono{
+       padding: 0.5rem; 
+    }
+    }
+
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #ul-nav li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    #ul-nav {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+        position: static;
+        padding: 0;
+    }
+    nav button{
+        display: none;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #ul-nav li {
+        margin-left: 3rem;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
