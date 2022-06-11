@@ -406,7 +406,9 @@ li a.active, li a:hover{
 
 .conteiner-contacto{
     display: flex;
-    flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 .tarjeta1{
